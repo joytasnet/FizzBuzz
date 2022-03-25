@@ -1,7 +1,7 @@
 import java.util.*;
 public class AbeMain{
 	public static void main(String[] args){
-		for(int i=1;i<21;i++){
+		for(int i=1;i<=20;i++){
 			if(i % 3 == 0 && i % 5 == 0){
 				System.out.println("FizzBuzz");
 			}else if(i % 3 == 0){
@@ -9,7 +9,7 @@ public class AbeMain{
 			}else if(i % 5 == 0){
 				System.out.println("Buzz");
 			}else{
-			System.out.println(i);
+		System.out.println(i);
 			}
 		}
 	}
