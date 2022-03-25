@@ -9,7 +9,7 @@ public class NagasuMain{
 			}else if(i%5 == 0){
 				System.out.println("Bazz");
 			}else{
-			System.out.println(i);
+				System.out.println(i);
 			}
 		}
 	}
