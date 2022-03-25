@@ -10,6 +10,7 @@ public class NaganoMain{
 				System.out.println("Buzz");
 			}else{
 				System.out.println(i);
+				
 			}
 		}
 	}
